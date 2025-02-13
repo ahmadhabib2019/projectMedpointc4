@@ -24,11 +24,11 @@ workspace {
             title "[Code] Payment Controller"
         }
         image paymentgateway "c4-payment" {
-            image images/img1.png
+            image images/img2.png
             title "[Code] Payment Controller"
         }
         image loginController "c4-logincontrol" {
-            image images/img1.png
+            image images/img3.png
             title "[Code] Payment Controller"
         }
         systemContext mainSystem {
