@@ -21,7 +21,7 @@ workspace {
         !include features/views.dsl
         image reservationController "c4-reservation" {
             image images/img1.png
-            title "[Code] Payment Controller"
+            title "[Code] Reservation Controller"
         }
         image paymentgateway "c4-payment" {
             image images/img2.png
@@ -29,7 +29,7 @@ workspace {
         }
         image loginController "c4-logincontrol" {
             image images/img3.png
-            title "[Code] Payment Controller"
+            title "[Code] Login Controller"
         }
         systemContext mainSystem {
             include *
