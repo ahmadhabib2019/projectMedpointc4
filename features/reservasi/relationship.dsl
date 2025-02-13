@@ -1,0 +1,5 @@
+user -> pageSignin "user get mobile app"
+pageSignin -> reservation "user submit or cancel reservation"
+reservation -> reservationController "uses"
+reservationController -> notification "user get notification"
+reservationController -> paymentgateway "user makes payment"
